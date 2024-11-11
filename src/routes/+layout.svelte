@@ -3,4 +3,9 @@
 	let { children } = $props();
 </script>
 
-{@render children()}
+<svelte:head>
+	<title>神経衰弱 - Shinkei Suijaku (Powerd by sveltekit)</title>
+</svelte:head>
+<div class="align-center flex h-screen flex-col justify-center text-center">
+	{@render children()}
+</div>
